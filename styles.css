@@ -1,3 +1,51 @@
-.p_desc{
-    color: blue;
+.bg{
+    background-image: url("./images/recipesimg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+.heading{
+    font-size: 38px;
+    text-align: center;
+    color: white;
+}
+
+.recipe_lists{
+    color:white;
+    font-size: 38px;
+    margin-left: 30px;
+}
+
+
+.recipe_lists #l_one{
+    height: 30px;
+    width: 30px;
+}
+.recipe_lists #l_two{
+    height: 30px;
+    width: 30px;
+}
+.recipe_lists #l_three{
+    height: 30px;
+    width: 30px;
+}
+/* Link */
+a {
+    color: white; /* Change to your desired link color */
+    text-decoration: none; /* Remove underline if desired */
+  }
+  
+  /* Visited Link */
+  /* a:visited {
+    color: blue; /* Change to your desired visited link color 
+  } */
+  
+  /* Hovered Link */
+  a:hover {
+    color: green; /* Change to your desired hover link color */
+  }
+  
+  /* Active Link (When clicked) */
+  a:active {
+    color: blue; /* Change to your desired active link color */
+  }
+
